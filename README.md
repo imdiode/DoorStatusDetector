@@ -10,11 +10,17 @@
 - Coffee
 
 ### Connection
-ESP32    HC-SR04   
-GPIO0 -> Trig
-GPIO2 -> Echo
-Gnd   -> Gnd
-5VDC  -> VCC
+=================
+|ESP32   | HC-SR04|
+=================
+|GPIO0 | Trig|
+--------------
+|GPIO2 | Echo|
+--------------
+|Gnd   | Gnd|
+-------------
+|5VDC  | VCC|
+--------------
 
 ### Features
 - Noise reduction using last 3 distance readings
